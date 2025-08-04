@@ -47,4 +47,8 @@ public class CuentaBancaria {
             System.out.println("Debe tener saldo suficiente");
         }
     }
+
+    public String toString() {
+        return String.format("Numero de cuenta=%s, nombre=%s", nombreTitular, numeroCuenta);
+    }
 }
