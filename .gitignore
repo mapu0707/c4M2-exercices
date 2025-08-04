@@ -1,0 +1,11 @@
+# Ignorar archivos y carpetas innecesarias
+bin/
+lib/
+*.class
+*.log
+.vscode/
+.DS_Store
+*.jar
+*.iml
+*.swp
+src/*/.class
