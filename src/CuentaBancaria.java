@@ -16,6 +16,14 @@ public class CuentaBancaria {
         this.nombreTitular = nombreTitular;
         this.saldo = saldo;
     }
+    
+
+    public CuentaBancaria(String numeroCuenta, String nombreTitular, Double saldo, Double monto) {
+        this.numeroCuenta = numeroCuenta;
+        this.nombreTitular = nombreTitular;
+        this.saldo = saldo;
+        this.monto = monto;
+    }
 
     // Getters
     public String getNumeroCuenta() {
@@ -49,6 +57,6 @@ public class CuentaBancaria {
     }
 
     public String toString() {
-        return String.format("Numero de cuenta=%s, nombre=%s", nombreTitular, numeroCuenta);
+        return String.format("Numero de cuenta=%s, nombre=%s, saldo=%s", numeroCuenta, nombreTitular, saldo);
     }
 }
